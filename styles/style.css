@@ -79,6 +79,8 @@ section{
 .what-i-do-container{
     display: flex;
     margin: 70px 0;
+    justify-content: space-around;
+    gap: 70px;
 }
 .what-i-do-title{
     text-align: center;
@@ -93,7 +95,6 @@ section{
 }
 .what-i-do-container .content{
     box-shadow: 5px 5px 20px lightblue;
-    margin-right: 70px;
     padding: 30px 10px 30px 30px;
     border-radius: 10px;
 }
