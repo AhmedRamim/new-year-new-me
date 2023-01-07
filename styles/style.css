@@ -75,6 +75,29 @@ section{
     padding-top: 15px;
 }
 
+/* what i do section style */
+.what-i-do-container{
+    display: flex;
+    margin: 70px 0;
+}
+.what-i-do-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.content img{
+    width: 90px;
+}
+.content h2{
+    margin: 12px 0px;
+}
+.what-i-do-container .content{
+    box-shadow: 5px 5px 20px lightblue;
+    margin-right: 70px;
+    padding: 30px 10px 30px 30px;
+    border-radius: 10px;
+}
+
 /* My plans section styles */
 .my-plans .card-area{
     justify-content: space-between;
